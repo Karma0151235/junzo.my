@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Junzo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/Favicon_JZ.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/awards.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'><link rel="stylesheet" href="assets/css/img.css">
+
+
+</head>
+
+<body class="page-index">
+
+  <!-- ======= Header ======= -->
+	<my-header></my-header>
+	<script src="assets/js/header.js"></script>
+  <!-- End Header -->
+  
+  <!-- ======= Hero Section ======= -->
+  <style>
+	.hero {
+	  position: relative; /* Establish a positioning context for child elements */
+	}
+
+	.container {
+	  align-items: flex-start; /* Align items to the top */
+	  position: relative; /* Ensure the container has relative positioning */
+	}
+
+	.hero-text {
+	  flex: 1;
+	}
+
+	.hero-logos {
+	  position: absolute;
+	  top: 10px; /* Distance from the top */
+	  right: 20px; /* Distance from the right edge */
+	  display: flex;
+	  flex-direction: column;
+	  gap: 10px; /* Space between logos */
+	}
+
+	.hero-logo img {
+	  width: 80px; /* Adjust size as needed */
+	  height: auto;
+	}
+
+
+	</style>
+	
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <h2 data-aos="fade-up">The Smartest Choice of System Integration & Training Provider</h2>
+          <blockquote data-aos="fade-up" data-aos-delay="100">
+            <p>Junzo consistently adheres to the highest quality, integrity, ethics, and compliance requirements in hiring and deploying manpower services to our clients in order to assure accountability and responsibility for our business partners and ourselves.</p>
+          </blockquote>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#why-us" class="btn-get-started">Get Started</a>
+          </div>
+          <div class="hero-logos" data-aos="fade-up" data-aos-delay="300">
+            <a href="https://junzo.my/Awards.html" class="hero-logo">
+              <img src="assets/img/ISO_logo.png" alt="Logo 1">
+            </a>
+            <a href="https://junzo.my/Awards.html" class="hero-logo">
+              <img src="assets/img/MD_logo.png" alt="Logo 2">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+	  
+	<!-- Announcement Section -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+       	  <h2>Important Notice</h2>
+		</div>
+		<div data-aos="fade-up" class="slider-container">
+		  <button class="left-button" onclick="plusDivs(-1)">&#10094;</button>
+			<img class="mySlides" src="assets/img/New-Junzo-Office-in-Bangkok.jpg" alt="Junzo">
+		  <img class="mySlides" src="assets/img/SAP_Partner_Recognition_Awards_Q2_2024.jpeg" alt="Junzo">
+		  <button class="right-button" onclick="plusDivs(1)">&#10095;</button>
+		  </div>
+	  </div>
+	</section>
+	  
+	  <script>
+		  let slideIndex = 0;
+		  const slides = document.getElementsByClassName("mySlides");
+		  
+		  function showSlides(i) {
+			  if (i >= slides.length){
+				  slideIndex = 0;
+			  }
+			  if (i < 0){
+				  slideIndex = slides.length - 1;
+			  }
+			  
+			  for(let j = 0; j < slides.length; j++) {
+				  slides[j].style.display = "none";
+			  }
+			  slides[slideIndex].style.display = "block";
+		  }
+		  
+		  function plusDivs(i) {
+			  slideIndex += i;
+			  showSlides(slideIndex);
+		  }
+		  
+		  function autoSlide() {
+			  plusDivs(1);
+		  }
+		  
+		  showSlides(slideIndex);
+		  setInterval(autoSlide, 3000);
+	  </script>
+			  
+	<!-- End Announcement Section -->
+
+    <!-- ======= Why Choose Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Why Choose Us</h2>
+        </div>
+        <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/team-bg.jpg')"></div>
+          <div class="col-xl-7 slides  position-relative">
+            <div class="slides-1 swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Passionate at What We Do</h3>
+                    <h4 class="mb-3"></h4>
+                    <p>We are passionate and dedicated at what we do. We are also devoted to finishing every assignment and giving you top-notch outcomes. The organisation places a strong emphasis on fusing various approaches, enthusiastic minds, and commitment to work so we can quickly address any client's demand.
+                    </div>
+                </div><!-- End slide item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Why Choose Us Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header" >
+          <h2>What Our Customers Say</h2>
+        </div>
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  The training was conducted online. I had previous experience with online training, however the training from Junzo has been the best so far. The trainers really engage with the participants and ensure that they understand what the course is about and how tackle difficult topics and questions.
+                </p>
+                <div class="profile mt-auto">
+                  <h3>Sharmila</h3>
+                  <h4>Enterprise Solutions CoE - Design & Delivery</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                Good environment and comfortable to learning. TQ !
+                </p>
+                <div class="profile mt-auto">
+                  <h3>Mohd Sofian Hamzah</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  I learnt a lot here. I would recommend this training to others. TQ!
+                </p>
+                <div class="profile mt-auto">
+                  <h3>Mohd Annif Awnas</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Very clear practice, details in explanation. Satisfy so far, the teaching very interesting. Alert all times.
+                </p>
+                <div class="profile mt-auto">
+                  <h3>Ng Choon Har</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  I am able to grasp the knowledge theoretically from this course and understand better of the concept of this new programming model.
+                </p>
+                <div class="profile mt-auto">
+                  <h3>SAP HA450 Participant</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  I am able to grasp the knowledge theoretically from this course and understand better of the concept of this new programming model.
+                </p>
+                <div class="profile mt-auto">
+                  <h3>SAP HA450 Participant</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  I am able to grasp the knowledge theoretically from this course and understand better of the concept of this new programming model.
+                </p>
+                <div class="profile mt-auto">
+                  <h3>SAP HA450 Participant</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Overall the training is good, if the trainer could added the real life scenario and how it could related to the course topic, then it will add more into to the attendance.
+                </p>
+                <div class="profile mt-auto">
+                  <h3>SAP HA450 Participant</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                Let's keep in touch, we can share our expertise and knowledge next time. He is very clear and knowledgeable on the delivery of this course
+                </p>
+                <div class="profile mt-auto">
+                  <h3>Joanne</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+			  
+			
+			  <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                Thanks again for everything you and your team done. Best ever training ever attended. 
+                </p>
+                <div class="profile mt-auto">
+                  <h3>Nixon Lai</h3>
+                  <h4>Client</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+			  
+			  <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                Thank you very much for all the your hard work for yesterday session. We enjoyed the good food and meaningful activities.
+                <div class="profile mt-auto">
+                  <h3>Boon Yee</h3>
+                  <h4>Client</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+			  
+			  <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                Really thankful for the arrangement yesterday, we really had much fun throughout the day.
+                <div class="profile mt-auto">
+                  <h3>Jing Yi</h3>
+                  <h4>Client</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+			  
+			  <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                Thank you for organise the meaningful activities to us. We are really enjoy it.
+                <div class="profile mt-auto">
+                  <h3>Ooi San Yeoh</h3>
+                  <h4>Client</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+			  
+			  <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                I’ve attended many team-building sessions, but this is the only one that truly left me feeling energized and deeply moved, especially during the closing. Every member of the Junzo team showed such genuine dedication and care in organizing and guiding the activities. It was clear that everything was done with heart and sincerity—I could truly feel it. Thank you for creating such a meaningful and unforgettable experience for us.
+                <div class="profile mt-auto">
+                  <h3>Christina</h3>
+                  <h4>OMS GAR Manager</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+			  
+              <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                 I wanted to take a moment to express my sincere gratitude for giving me the opportunity to attend the ITIL 4 Foundation training course. This training has been incredibly valuable, and I am confident that the knowledge and skills I have gained will greatly benefit my future work. It has also opened many new opportunities for me. Thank you once again for your support,  for believing in my potential and thank you to the whole Junzo team for organising the training and the exam 🎉
+                <div class="profile mt-auto">
+                  <h3>Nikhil Gohil</h3>
+                  <h4>RPA Platform Admin</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+			  
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <br><br>
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h3>Join Our Team</h3>
+            <p>Make your worthwhile and build your career with us.
+              Looking to sharpen, expand and apply your skillset? Join us and let’s make this a reality!</p>
+            <a class="cta-btn" href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Call To Action Section -->
+	 
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-posts" class="recent-posts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Featured Topics</h2>
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/leader.jpg" class="img-fluid" alt=""></div>
+              <h3 class="post-title">What is Training?</h3>
+              <p>Training is the process of developing knowledge, skills, and competencies in individuals...</p>
+              <a href="what-is-training.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/recruit.jpg" class="img-fluid" alt=""></div>
+              <h3 class="post-title">Employee Training and Development</h3>
+              <p>Employee training can take many forms depending on the needs of the organization and its workforce...</p>
+              <a href="employee-training-and-development.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/iot.jpg" class="img-fluid" alt=""></div>
+              <h3 class="post-title">Effective Training Programs</h3>
+              <p>SAP training equips users with the necessary skills to operate SAP software, a widely used ERP system...</p>
+              <a href="effective-training-programs.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/teambuild.jpg" class="img-fluid" alt=""></div>
+              <h3 class="post-title">Team Building Skills</h3>
+              <p>There are several ways to make team building an entirely free event. To earn chocolate building materials...</p>
+              <a href="teambuildskills.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Recent Blog Posts Section -->
+
+  </main><!-- End #main -->
+
+   <!-- Footer -->
+	<my-footer></my-footer>
+	<script src="assets/js/footer.js"></script>
+   <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+  <!-- Container for the WhatsApp button -->
+    <div id="whatsapp-button-container"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script>
+        // Function to load the WhatsApp button
+        function loadWhatsAppButton() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'whatsapp-button.html', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById('whatsapp-button-container').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+
+        // Call the function to load the WhatsApp button when the page loads
+        window.onload = loadWhatsAppButton;
+     </script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/awards.js"></script>
+  <script>
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "F12" || 
+        (e.ctrlKey && e.shiftKey && e.key === "I") || 
+        (e.ctrlKey && e.key === "U") || 
+        (e.ctrlKey && e.key === "S") || 
+        (e.ctrlKey && e.shiftKey && e.key === "J")) {
+      e.preventDefault();
+    }
+  });
+
+  // Prevent Right-Click Menu for "View Source"
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
+</script>
+</body>
+
+</html>
+
