@@ -22,8 +22,8 @@ class MyHeader extends HTMLElement {
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                         <li><a href="about.html">Our Company</a></li>
-                        <li><a href="location.html">Location</a></li>
-                        <li><a href="contact.html">Connect With Us</a></li>
+                        <li><a href="location THAILAND.html">Location</a></li>
+                        <li><a href="contact THAILAND.html">Connect With Us</a></li>
                         <li class="dropdown"><a href="#"><span>Our Policy</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                             <ul>
                             <li><a href="privacy-policy.html">Privacy Policy</a></li>
@@ -35,8 +35,8 @@ class MyHeader extends HTMLElement {
                     </li>
                     <li class="dropdown"><a href="#"><span>Training</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                        <li><a href="SAP-training.html">SAP Training</a></li>
-                        <li><a href="Training-Course-Schedules.html">Training Schedules</a></li>
+                        <li><a href="SAP-training-THAILAND.html">SAP Training</a></li>
+                        <li><a href="SAP-Training-Course-Schedule-THAILAND.html">Training Schedules</a></li>
                         </ul>
                     </li>
                     <li><a href="gallery.html">Gallery</a></li>

@@ -30,8 +30,8 @@ class MyFooter extends HTMLElement {
                     <h4>About</h4>
                     <ul>
                     <li><a href="about.html">Our Company</a></li>
-                    <li><a href="location.html">Location</a></li>
-                    <li><a href="contact.html">Connect with Us</a></li>
+                    <li><a href="location THAILAND.html">Location</a></li>
+                    <li><a href="contact THAILAND.html">Connect with Us</a></li>
                     <li><a href="privacy-policy.html">Privacy Policy</a></li>
                     <li><a href="fulfillment-policy.html">Fulfillment Policy</a></li>
                     <li><a href="return-refund-policy.html">Return/ Refund Policy</a></li>
@@ -41,8 +41,8 @@ class MyFooter extends HTMLElement {
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Training</h4>
                     <ul>
-                    <li><a href="SAP-training.html">SAP Training</a></li>
-                    <li><a href="TrainingCourseSchedule.html">Training Schedules</a></li>
+                    <li><a href="SAP-training-THAILAND.html">SAP Training</a></li>
+                    <li><a href="Training-Course-Schedule-THAILAND.html">Training Schedules</a></li>
                 </div><!-- End footer links column-->
 
                 </div>
