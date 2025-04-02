@@ -72,7 +72,7 @@ class MyHeader extends HTMLElement {
                         <li><a href="index.html">Malaysia</a></li>
 						<li><a href="wip.html">Singapore</a></li>
 						<li><a href="wip.html">Philippines</a></li>
-                        <li><a href="indexth.html">Thailand</a></li>
+                        <li><a href="th.html">Thailand</a></li>
                         </ul>
                     </li>
                     </ul>
