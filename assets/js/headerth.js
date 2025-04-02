@@ -40,12 +40,12 @@ class MyHeader extends HTMLElement {
                         </ul>
                     </li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li class="dropdown"><a href="#"><span>Thailand</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li class="dropdown"><a href="#"><span>ประเทศไทย</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                        <li><a href="index.html">Malaysia</a></li>
-						<li><a href="wip.html">Singapore</a></li>
-						<li><a href="wip.html">Philippines</a></li>
-                        <li><a href="th.html">Thailand</a></li>
+                        <li><a href="index.html">มาเลเซีย (Malaysia)</a></li>
+						<li><a href="wip.html">สิงคโปร์ (Singapore)</a></li>
+						<li><a href="wip.html">ฟิลิปปินส์ (Philippines)</a></li>
+                        <li><a href="th.html">ประเทศไทย (Thailand)</a></li>
                         </ul>
                     </li>
                     </ul>
