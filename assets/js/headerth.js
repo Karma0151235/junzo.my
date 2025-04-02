@@ -38,13 +38,11 @@ class MyHeader extends HTMLElement {
                     <li class="dropdown"><a href="#"><span>Training</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                         <li><a href="SAP-training.html">SAP Training</a></li>
-						<li><a href="IT-Training-programme.html">IT Programme</a></li>
-						<li><a href="Soft-Skills-Training.html">Soft Skills Training</a></li>
                         <li><a href="Training-Course-Schedules.html">Training Schedules</a></li>
                         </ul>
                     </li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li class="dropdown"><a href="#"><span>Locations</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <li class="dropdown"><a href="#"><span>Thailand</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                         <li><a href="index.html">Malaysia</a></li>
 						<li><a href="wip.html">Singapore</a></li>
