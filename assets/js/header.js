@@ -67,6 +67,14 @@ class MyHeader extends HTMLElement {
                         </ul>
                     </li>
                     <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown"><a href="#"><span>Locations</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                        <li><a href="index.html">Malaysia</a></li>
+						<li><a href="wip.html">Singapore</a></li>
+						<li><a href="wip.html">Philippines</a></li>
+                        <li><a href="Training-Course-Schedules.html">Thailand</a></li>
+                        </ul>
+                    </li>
                     </ul>
                 </nav><!-- .navbar -->
                 </div>
