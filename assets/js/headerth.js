@@ -8,7 +8,7 @@ class MyHeader extends HTMLElement {
             <header id="header" class="header d-flex align-items-center fixed-top">
                 <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-                <a href="index.html" class="logo d-flex align-items-center">
+                <a href="th.html" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
                     <img src="assets/img/jlogo.png" alt="">
                     <h1 class="d-flex align-items-center">Junzo Limited</h1>
@@ -39,7 +39,7 @@ class MyHeader extends HTMLElement {
                         <li><a href="SAP-Training-Course-Schedule-THAILAND.html">Training Schedules</a></li>
                         </ul>
                     </li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery THAILAND.html">Gallery</a></li>
                     <li class="dropdown"><a href="#"><span>ประเทศไทย</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                         <li><a href="index.html">มาเลเซีย (Malaysia)</a></li>

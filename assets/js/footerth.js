@@ -42,7 +42,7 @@ class MyFooter extends HTMLElement {
                     <h4>Training</h4>
                     <ul>
                     <li><a href="SAP-training-THAILAND.html">SAP Training</a></li>
-                    <li><a href="Training-Course-Schedule-THAILAND.html">Training Schedules</a></li>
+                    <li><a href="SAP-Training-Course-Schedule-THAILAND.html">Training Schedules</a></li>
                 </div><!-- End footer links column-->
 
                 </div>
