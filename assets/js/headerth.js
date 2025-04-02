@@ -22,7 +22,6 @@ class MyHeader extends HTMLElement {
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                         <li><a href="about.html">Our Company</a></li>
-                        <li><a href="partners.html">Our Partners</a></li>
                         <li><a href="location.html">Location</a></li>
                         <li><a href="contact.html">Connect With Us</a></li>
                         <li class="dropdown"><a href="#"><span>Our Policy</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -32,7 +31,6 @@ class MyHeader extends HTMLElement {
                             <li><a href="return-refund-policy.html">Return/ Refund Policy</a></li>
                             </ul>
                         </li>
-                        <li><a href="Awards.html">Awards</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Training</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
