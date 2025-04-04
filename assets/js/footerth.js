@@ -14,7 +14,7 @@ class MyFooter extends HTMLElement {
                     <h3>Junzo Limited</h3>
                     <p>
                         Huai Khwang District, Bangkok 10310, Thailand<br><br>
-                        <strong>Phone:</strong> (+603) 8603 2585 / (+604) 611 5278 / (+6011) 2858 4728<br>
+                        <strong>Phone:</strong> (+66) 97 249 3505<br>
                         <strong>Email:</strong> info@junzo.my<br>
 						
                     </p>
@@ -29,7 +29,7 @@ class MyFooter extends HTMLElement {
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>About</h4>
                     <ul>
-                    <li><a href="about.html">Our Company</a></li>
+                    <li><a href="about THAILAND.html">Our Company</a></li>
                     <li><a href="location THAILAND.html">Location</a></li>
                     <li><a href="contact THAILAND.html">Connect with Us</a></li>
                     <li><a href="privacy-policy.html">Privacy Policy</a></li>

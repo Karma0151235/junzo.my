@@ -21,7 +21,7 @@ class MyHeader extends HTMLElement {
                     <ul>
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                        <li><a href="about.html">Our Company</a></li>
+                        <li><a href="about THAILAND.html">Our Company</a></li>
                         <li><a href="location THAILAND.html">Location</a></li>
                         <li><a href="contact THAILAND.html">Connect With Us</a></li>
                         <li class="dropdown"><a href="#"><span>Our Policy</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
