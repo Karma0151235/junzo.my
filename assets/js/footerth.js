@@ -45,6 +45,13 @@ class MyFooter extends HTMLElement {
                     <li><a href="SAP-Training-Course-Schedule-THAILAND.html">Training Schedules</a></li>
                 </div><!-- End footer links column-->
 
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Our Contacts</h4>
+                    <ul>
+                    <li><a href="SAP-training-THAILAND.html">Facebook</a></li>
+                    <li><a href="https://lin.ee/9tUkcen">LINE</a></li>
+                </div><!-- End footer links column-->
+
                 </div>
             </div>
             </div>
