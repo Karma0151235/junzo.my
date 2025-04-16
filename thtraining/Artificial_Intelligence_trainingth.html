@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Junzo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'><link rel="stylesheet" href="assets/css/newsevent.css">
+</head>
+<body class="page-portfolio">
+  
+  <!-- ======= Header ======= -->
+	<my-header></my-header>
+	<script src="assets/js/header.js"></script>
+  <!-- End Header -->
+	
+  <style>
+	p {
+	  margin-bottom: 2em;
+	}
+
+
+	.pageTitle,
+	.pageSubTitle {
+	  font-family: 'Titillium', sans-serif;
+	  text-transform: uppercase;
+	  color: #333;
+	}
+
+	.pageTitle {
+	  color: #00008B;
+	}
+
+	.pageTitle {
+	  font-size: 2em;
+	  font-weight: 700;
+	  line-height: 2em;
+	}
+
+	.pageSubTitle {
+	  margin-bottom: 1em;
+	  font-size: 1.4em;
+	  font-weight: 300;
+	}
+
+	.background {
+	  background:
+	  background-size: 100% auto;
+	  position: fixed;
+	  width: 100%;
+	  height: 300%;
+	  top: 0;
+	  left: 0;
+	  z-index: -1
+	}
+
+	.wrapper {
+	  width: 1020px;
+	  padding: 40px;
+	  margin: 20px auto;
+	  background: #fff;
+	  box-shadow:  0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+	}
+
+	.slogan {
+	  position: fixed;
+	  display: block;
+	  top: 700px;
+	  width: 100%;
+	  padding: 20px 0;
+	  text-align: center;
+	  background: #222;
+	}
+
+	.sloganTitle {
+	  font-size: 70px;
+	  font-weight: 700;
+	  line-height: 80px;
+	  color: #fff;
+
+	  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+	}
+  </style>
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/SAP-header.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center">
+
+        <h2>Artificial Intelligence (AI) Training</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Artificial Intelligence (AI) Training</li>
+        </ol>
+
+      </div>
+    </div><br><br><!-- End Breadcrumbs -->
+
+
+    <!-- ======= Schedule Box ======= -->
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 69%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: white;
+    }
+    table.center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+		
+	 .steps {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .step-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            border-radius: 30px;
+            background-color: #256029; /* Default Darker Green */
+            color: white;
+            font-weight: bold;
+            min-width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .step p {
+            margin: 0;
+            text-align: left;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            color: #256029;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+
+        .step:nth-child(1) {
+            background-color: #006064; /* Darker Cyan */
+        }
+
+        .step:nth-child(2) {
+            background-color: #4a0072; /* Darker Purple */
+        }
+
+        .step:nth-child(3) {
+            background-color: #b71c1c; /* Darker Red */
+        }
+
+        .arrow {
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 15px solid #333;
+            margin: 10px 0;
+        }
+
+        .step-container:nth-child(1) .arrow {
+            border-top-color: #006064; /* Darker Cyan */
+        }
+
+        .step-container:nth-child(2) .arrow {
+            border-top-color: #4a0072; /* Darker Purple */
+        }
+
+        .step-container:nth-child(3) .arrow {
+            display: none; /* No arrow for the last step */
+        }
+
+        .small-text {
+            font-size: 14px;
+            font-weight: normal;
+        }
+    </style>
+  
+    <!-- ======= End Schedule Box======= -->
+
+
+    <!-- ======= Blog Section ======= -->
+    <div class="background">
+</div>
+
+<article class="wrapper">
+  <header>
+    <h1 class="pageTitle">Artificial Intelligence (AI) Training</h1>
+  </header>
+  <section>
+    <h2 class="pageSubTitle"><b><b>REVOLUTION IN RECRUITMENT AND UTILIZING AI FOR SOFT SKILLS DEVELOPMENT</b></b></h2>
+    <p>
+		<h5>How can the Mind Report contribute to enhancing a person’s emotional quotient?</h5> 
+	  <p>The voice analysis is a quick and insightful tool that takes only 5 minutes to complete. This analysis is designed to provide valuable insights into an individual’s personality traits, aiding children development and fostering positive interpersonal connections. </p> 
+	  <p></p>
+	  <ul>
+	<li>Source of Stress – Stress conditions & sources</li>
+	<li>Feeling Expression – Emotional expression state</li>
+	<li>Behaviour – Attitude & behaviour</li>
+	<li>Sensory – Communication & relationship</li>
+	<li>Interpersonal – Relational interaction model</li>
+	<li>Personality – Characteristics & potential qualities</li>
+	<li>Emotion Process – Characteristics & potential qualities</li>
+	<li>Emotion State – Frequent & core emotions</li>
+	<li>Emotion Blueprint – The moment of emotional imprinting</li>
+	</ul>
+	 <br> 
+<h2 class="pageSubTitle"><b><b>In Just 4 Steps</b></b></h2>
+    <p>
+	  <ul>
+	<li>Step 1 - The Mind Assessment (5 Minutes Voice Recording)</li>
+	<li>Step 2 - Corporate Training</li>
+	  <li>Step 3 – IDN Health Check</li>
+	<li>Step 4 – Sound Frequency Therapy</li></ul>
+<br> 
+<h2 class="pageSubTitle"><b><b>For Individual </b></b></h2>
+    <p>
+	  <ul>
+	<li>Self-Development </li>
+	  <li>Career Development  </li>
+	  <li>Quit ( an addiction )  </li>
+	  <li>Improve EQ Management  </li>
+	  <li>Reduce Stress </li></ul>
+<br> 
+<h2 class="pageSubTitle"><b><b>For Corporate Training </b></b></h2>
+    <p>
+	  <ul>
+	<li>Program Self-aware leadership through AI technology </li>
+	<li>Emotional intelligence through AI technology</li>
+	</ul>
+<br>
+<br>
+<div class="steps">
+        <div class="step-container">
+            <div class="step">
+                <div class="icon">💡</div>
+                <p>5 min recording</p>
+            </div>
+            <div class="arrow"></div>
+        </div>
+        <div class="step-container">
+            <div class="step">
+                <div class="icon">📝</div>
+                <p>BRAIN FREQUENCY<br><span class="small-text">Mind & Energy Status (Emotional Health)</span></p>
+            </div>
+            <div class="arrow"></div>
+        </div>
+        <div class="step-container">
+            <div class="step">
+                <div class="icon">🎯</div>
+                <p>DNA FREQUENCY<br><span class="small-text">Physical Health</span></p>
+            </div>
+        </div>
+    </div>
+<br><br><br>
+<h2 class="pageSubTitle"><b><b>Contact Us for More Information</b></b></h2>
+	<p>
+	  <ul>
+	<b><li>If you are interested with our Artificial Intelligence (AI) Training, do Call us for more information.</li></b>
+	
+	</ul> 
+	  
+    <p>
+  </section>
+</article>
+
+    <!-- End Blog Section -->
+
+	<!-- ======= Call To Action Section ======= -->
+		<section id="call-to-action" class="call-to-action">
+		  <div class="container" data-aos="fade-up">
+			<div class="row justify-content-center">
+			  <div class="col-lg-6 text-center">
+				<h3>Contact Us for More Information</h3>
+				<p>Interested with the training course? Need more information? Contact Us.</p>
+				<a class="cta-btn" href="https://wa.me/601128584728 ">Contact Us</a>
+			  </div>
+			</div>
+
+		  </div>
+		</section><!-- End Call To Action Section -->
+
+  <!-- Footer -->
+	<my-footer></my-footer>
+	<script src="assets/js/footer.js"></script>
+  <!-- End Footer -->
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+<!-- partial -->
+  <script src='https://codepen.io/pasaribu/pen/NNGbJo/c58fffe58d661ae3d4b168a43eb3b2b8.js'></script><script  src="assets/js/img.js"></script>
+
+<script>
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "F12" ||
+        (e.ctrlKey && e.shiftKey && e.key === "I") ||
+        (e.ctrlKey && e.key === "U") ||
+        (e.ctrlKey && e.key === "S") ||
+        (e.ctrlKey && e.shiftKey && e.key === "J")) {
+      e.preventDefault();
+    }
+  });
+
+  // Prevent Right-Click Menu for "View Source"
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
+</script>	  
+	  
+</body>
+</html>
+

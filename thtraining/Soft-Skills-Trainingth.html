@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Junzo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/training.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/trainingSAP.css">
+
+</head>
+
+<body class="page-index">
+
+  <!-- ======= Header ======= -->
+	<my-header></my-header>
+	<script src="assets/js/header.js"></script>
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/SAP-header.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center">
+
+        <h2>Soft Skills Training</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Soft Skills Training</li>
+        </ol>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+<!-- ======= Description ======= -->
+    <style>
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      padding: 0px;
+      margin: 10px;
+    }
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      padding: 0px;
+      margin: 10px;
+    }
+    </style>
+    <div class="site__wrapper">
+    <h1><b>Soft Skills Training</b></h1>
+    <p>Junzo offers customized soft skills training, empowering individuals with essential interpersonal abilities for personal and professional success.</p></div>
+<!-- ======= End Description ======= -->
+
+<!-- ======= Wrapper ======= -->
+    <div class="site__wrapper">
+		
+		<div class="grid">
+            <div class="card">
+              <div class="card__image">
+                <img src="assets/img/black_bg.jpg" alt="">
+
+                <div class="card__overlay card__overlay--blue">
+                  <div class="card__overlay-content">
+                    <ul class="card__meta">
+                    </ul>
+                    <a href="Soft-Skills-Courses.html" class="card__title">Soft Skills Training</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+		
+		<div class="grid">
+            <div class="card">
+              <div class="card__image">
+                <img src="assets/img/black_bg.jpg" alt="">
+
+                <div class="card__overlay card__overlay--blue">
+                  <div class="card__overlay-content">
+                    <ul class="card__meta">
+                    </ul>
+                    <a href="Artificial_Intelligence_training.html" class="card__title">Artificial Intelligence ( AI ) Training</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+  </div><!-- End wrapper -->
+
+  <!-- ======= Call To Action Section ======= -->
+  <section id="call-to-action" class="call-to-action">
+    <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h3>Contact Us for More Information</h3>
+          <p>Interested with the training course? Need more information? Contact Us.</p>
+          <a class="cta-btn" href="https://wa.me/601128584728" target="_blank">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Call To Action Section -->
+
+  </main><!-- End #main -->
+
+  <!-- Footer -->
+	<my-footer></my-footer>
+	<script src="assets/js/footer.js"></script>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+  <!-- Container for the WhatsApp button -->
+    <div id="whatsapp-button-container"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script>
+        // Function to load the WhatsApp button
+        function loadWhatsAppButton() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'whatsapp-button.html', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById('whatsapp-button-container').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+
+        // Call the function to load the WhatsApp button when the page loads
+        window.onload = loadWhatsAppButton;
+     </script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/SAPtraining.js"></script>
+
+</body>
+
+</html>
